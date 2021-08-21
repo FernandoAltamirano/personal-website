@@ -19,7 +19,7 @@ function Modal({ showMenu, setShowMenu }) {
   const closeModal = () => setShowMenu(false);
   return (
     <div className={showMenu ? "modal showModal" : "modal"}>
-      <div>
+      <div className="close_container">
         <Icon
           style={{ cursor: "pointer" }}
           icon={ic_close}
