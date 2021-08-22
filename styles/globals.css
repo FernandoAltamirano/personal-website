@@ -263,9 +263,12 @@ a {
   border-radius: 9999px;
 }
 .skills .wrapper > div {
-  display: flex;
+  display: grid;
+  min-height: 100px;
+  grid-template-columns: 70px auto;
   align-items: center;
-  margin: 2em 1em;
+  justify-content: flex-start;
+  margin: 1em;
 }
 
 .skills .content_item {
