@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import photo from "../public/prueba.jpeg";
 import { useSpring, a, config } from "react-spring";
-
+const profile =
+  "http://fernandoimages.imgix.net/prueba/profile 2.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
 function Principal() {
   const animation = useSpring({
     from: { opacity: "0" },
@@ -10,7 +10,9 @@ function Principal() {
   });
   return (
     <a.div style={animation} className="principal wrapper">
-      <Image src={photo} />
+      <div className="image_container">
+        <Image src={profile} width="100%" height="100%" layout="responsive" />
+      </div>
       <div>
         <h1>Fernando Altamirano Alca</h1>
         <div className="description">

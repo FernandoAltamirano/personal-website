@@ -145,8 +145,15 @@ a {
 .principal h1 {
   text-align: center;
 }
-.principal img {
+.principal .image_container {
   width: 40vw;
+  max-width: 280px;
+  margin: 0;
+  margin-right: 2em;
+  text-align: left;
+  border-radius: 99999px;
+}
+.principal img {
   border-radius: 99999px;
 }
 .principal p {
