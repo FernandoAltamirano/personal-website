@@ -54,7 +54,7 @@ function Portfolio() {
       </div>
       <Link href="http://github.com/FernandoAltamirano">
         <a target="_blank" className="vermas">
-          Ver más
+          View more
         </a>
       </Link>
     </div>
