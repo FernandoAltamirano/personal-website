@@ -148,8 +148,7 @@ a {
 .principal .image_container {
   width: 40vw;
   max-width: 280px;
-  margin: 0;
-  margin-right: 2em;
+  margin: 1em auto;
   text-align: left;
   border-radius: 99999px;
 }
@@ -197,6 +196,10 @@ a {
   }
   .principal img {
     width: 250px;
+  }
+  .principal .image_container {
+    margin: 0;
+    margin-right: 2em;
   }
   .principal > div {
     margin-left: 2em;
