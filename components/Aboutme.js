@@ -25,8 +25,8 @@ function Aboutme() {
           </span>
           mainly dedicated to Frontend Development but also I have knowledge in
           backend development. This because I like to be constantly research 🔍
-          and learning about new technologies. Also I like spend time other
-          watch documentals about tech industry, sports and videogames 💻 .
+          and learning about new technologies. Also I like watch documentals
+          about tech industry, sports and videogames 💻 .
         </p>
         <p>
           {" "}
@@ -34,9 +34,7 @@ function Aboutme() {
           be part of this growth and constant evolution of the tech industry.
           For this i don't have a problem to learn new things, is more, with
           desire, motivation, time and some coffee ☕ I can learn many things.
-          Finally, counting on me is counting on a person that seeks the
-          constant personal growth and of the team 👨‍💻👩‍💻 , that is very important
-          to growing up and to be a successful company 🏦 .
+          Never sstop learning...
         </p>
         <div className="downloadcv">
           <Link href="./Fernando Eli Altamirano Alca-CURRICULUM.pdf">
