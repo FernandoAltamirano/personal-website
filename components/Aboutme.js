@@ -34,7 +34,8 @@ function Aboutme() {
           be part of this growth and constant evolution of the tech industry.
           For this i don't have a problem to learn new things, is more, with
           desire, motivation, time and some coffee ☕ I can learn many things.
-          Never sstop learning...
+          Also I like to do many things like practice sports, cook in my house
+          and talk with my friends about many themes.
         </p>
         <div className="downloadcv">
           <Link href="./Fernando Eli Altamirano Alca-CURRICULUM.pdf">

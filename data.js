@@ -4,10 +4,8 @@ const imageAmazon =
   "http://fernandoimages.imgix.net/prueba/amazon.png?auto=compress&cs=tinysrgb&dpr=4&h=750&w=300";
 const imageDashboard =
   "http://fernandoimages.imgix.net/prueba/dashboard.jpg?auto=compress&cs=tinysrgb&dpr=4&h=750&w=300";
-const imageBookmark =
-  "http://fernandoimages.imgix.net/prueba/book.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
-const imageBank =
-  "http://fernandoimages.imgix.net/prueba/bank.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
+const imageEcommerce =
+  "http://fernandoimages.imgix.net/prueba/ecommerce.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
 export const projects = [
   {
     id: 1,
@@ -21,6 +19,22 @@ export const projects = [
   },
   {
     id: 2,
+    image: imageEcommerce,
+    title: "Ecommerce Gloves Store",
+    description:
+      "Fullstack aplication developed for a glove sales company. On this aplication you can login with Google or an email, add or remove products to the cart, see a pay method using Strip. Also there is an admin module to manage products and sales.",
+    technologies: [
+      "React",
+      "Express",
+      "Stripe",
+      "Firebase",
+      "Styled Components",
+    ],
+    URLapp: "https://ecommerce-guantes.web.app",
+    URLcode: "https://github.com/FernandoAltamirano/ecommerce-gloves-store",
+  },
+  {
+    id: 3,
     image: imageDashboard,
     title: "Social Media Dashboard",
     description:
@@ -30,7 +44,7 @@ export const projects = [
     URLcode: "https://github.com/FernandoAltamirano/social-media-dashboard",
   },
   {
-    id: 3,
+    id: 4,
     image: imageAmazon,
     title: "Amazon Clone",
     description:
@@ -38,17 +52,5 @@ export const projects = [
     technologies: ["React", "Firebase", "CSS"],
     URLapp: "https://clone-46db0.web.app",
     URLcode: "https://github.com/FernandoAltamirano/Amazon-clone/tree/master",
-  },
-  {
-    id: 3,
-    image: imageBank,
-    title: "Easy Bank Landing Page",
-    description:
-      "This landing page is an implementation of a frontendmentor challenge using basic techonologies like HTML, Sass and CSS. This page was a one of my first projects.  Also this page has full responsive design.",
-    technologies: ["HTML", "Sass"],
-    URLapp:
-      "https://fernandoaltamirano.github.io/Easy-Bank---Landing-Page---SASS/",
-    URLcode:
-      "https://github.com/FernandoAltamirano/Easy-Bank---Landing-Page---SASS",
   },
 ];
