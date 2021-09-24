@@ -12,7 +12,7 @@ function Contact() {
         <h1>Contact</h1>
       </div>
       <div className="wrapper">
-        <Link href="https://www.linkedin.com/in/fernando-eli-altamirano-alca-51b717208/">
+        <Link href="https://www.linkedin.com/in/fernandoelialtamirano/">
           <a target="_blank">
             <Icon icon={linkedin} size="40" className="icon" />
           </a>
