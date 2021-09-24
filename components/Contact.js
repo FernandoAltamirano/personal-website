@@ -22,7 +22,7 @@ function Contact() {
             <Icon icon={whatsapp} size="40" className="icon" />
           </a>
         </Link>
-        <Link href="mailto:fernando.altamirano@unmsm.edu.pe">
+        <Link href="mailto:fernandoelialtamirano@gmail.com">
           <a>
             <Icon icon={envelope} size="40" className="icon" />
           </a>
