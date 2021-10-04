@@ -26,7 +26,7 @@ function Principal() {
             <Link href="https://github.com/FernandoAltamirano">
               <a target="_blank">Github</a>
             </Link>
-            <Link href="https://www.linkedin.com/in/fernando-eli-altamirano-alca-51b717208/">
+            <Link href="https://www.linkedin.com/in/fernandoelialtamirano/">
               <a target="_blank">Linkedin</a>
             </Link>
           </div>
