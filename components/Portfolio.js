@@ -35,7 +35,7 @@ function Portfolio() {
             <a target="_blank">View code</a>
           </Link>
           <Link href={item.URLapp}>
-            <a>View project</a>
+            <a target="_blank">View project</a>
           </Link>
         </div>
       </div>
