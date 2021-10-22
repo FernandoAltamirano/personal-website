@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSpring, a, config } from "react-spring";
 const profile =
-  "http://fernandoimages.imgix.net/prueba/profile 2.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
+  "http://fernandoimages.imgix.net/prueba/CYMERA_20211021_211255_(1)[1].jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
+
 function Principal() {
   const animation = useSpring({
     from: { opacity: "0" },
