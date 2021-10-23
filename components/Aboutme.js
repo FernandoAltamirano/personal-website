@@ -14,19 +14,11 @@ function Aboutme() {
       </div>
       <div className="wrapper">
         <p>
-          {" "}
-          Hi, my name is Fernando Altamirano Alca, I'm from Peru{" "}
-          <span style={{ marginRight: 10 }}>
-            <img
-              src="https://images.emojiterra.com/twitter/512px/1f1f5-1f1ea.png"
-              width="15"
-              alt=""
-            />
-          </span>
-          mainly dedicated to Frontend Development but also I have knowledge in
-          backend development. This because I like to be constantly research 🔍
-          and learning about new technologies. Also I like watch documentals
-          about tech industry, sports and videogames 💻 .
+          Hi, my name is Fernando Altamirano Alca, I'm from Peru, mainly
+          dedicated to Frontend Development but also I have knowledge in backend
+          development. This because I like to be constantly research 🔍 and
+          learning about new technologies. Also I like watch documentals about
+          tech industry, sports and videogames 💻 .
         </p>
         <p>
           {" "}
