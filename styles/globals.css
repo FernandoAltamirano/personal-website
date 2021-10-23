@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 :root {
   --gray: #ececec;
   --gray2: #8b8b8b;
@@ -14,8 +15,7 @@
 html,
 body {
   font-size: 18px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
   background-color: var(--background);
 }
@@ -329,46 +329,45 @@ a {
 .portfolio .title_section div {
   background-color: var(--purple);
 }
+.portfolio .title_item {
+  margin-bottom: 1em;
+  font-weight: normal;
+  padding: 3px 5px;
+  font-weight: 600;
+}
 
 .portfolio .item {
   text-align: center;
-  min-width: 300px;
   margin-bottom: 4em;
 }
 
-.portfolio .item img {
-  /* width: 80vw; */
-  /* border-radius: 3px; */
-  object-fit: contain;
-  border-radius: 10px;
-}
-
-.portfolio .description h2,
+.description h2,
 h3,
 p {
-  margin-top: -1em;
-  /* text-align: center; */
+  margin-top: 1em;
 }
 
 .portfolio .description h3 {
-  margin: 1em 0;
-  margin-bottom: 1.5em;
+  margin: 2em 0 0 0;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .portfolio .description p {
   font-size: 16px;
   text-align: justify;
 }
-.portfolio .bottom {
-  margin: 1em 0;
+
+.portfolio .technologies_container {
+  padding-top: 1em;
 }
-.portfolio .bottom > span {
+.portfolio .technologies_container > span {
   color: var(--gray2);
   font-size: 12px;
   letter-spacing: 10px;
 }
 
-.portfolio .bottom .line {
+.portfolio .technologies_container .line {
   width: 100%;
   height: 1px;
   background-color: var(--gray2);
@@ -415,16 +414,16 @@ p {
   color: var(--white);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .portfolio {
-    margin-top: 4em;
+    margin-top: 6em;
     margin-bottom: 6em;
   }
-  .portfolio .wrapper {
-    /* display: grid; */
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 5em;
+
+  .portfolio .title_item {
+    margin-bottom: 0.8em;
   }
+
   .portfolio .description h2,
   h3,
   p {
@@ -438,14 +437,23 @@ p {
 
   .portfolio .item {
     display: grid;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 45% auto;
     column-gap: 4em;
-    grid-template-areas: "desc image";
+    grid-template-areas:
+      "title title"
+      "desc image"
+      " opts opts";
+  }
+  .portfolio .title_item {
+    grid-area: title;
+    margin-bottom: 1.5em;
   }
 
   .portfolio .image_container {
     grid-area: image;
     justify-self: stretch;
+    /* height: 250px; */
+    margin-top: 1em;
   }
 
   .portfolio .description h2,
@@ -454,6 +462,13 @@ p {
   }
   .portfolio .description {
     grid-area: desc;
+  }
+  .portfolio .bottom_options {
+    grid-area: opts;
+  }
+  .portfolio .technologies_container {
+    width: 100%;
+    margin: 1em auto 0 auto;
   }
   .portfolio .buttons_container {
     flex-direction: row;

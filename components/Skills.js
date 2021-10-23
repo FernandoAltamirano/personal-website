@@ -3,6 +3,7 @@ import reactImage from "../public/react.png";
 import nodeImage from "../public//node.png";
 import firebaseImage from "../public/firebase.png";
 import layoutImage from "../public/layout.png";
+import figmaImage from "../public/icons8-figma-96.png";
 
 function Skills() {
   return (
@@ -31,6 +32,7 @@ function Skills() {
             <div>
               <span>Javascript</span>
               <span>React</span>
+              <span>Redux</span>
             </div>
           </div>
         </div>
@@ -53,8 +55,7 @@ function Skills() {
           <div className="content_item">
             <p>Backend Development</p>
             <div>
-              <span>Node</span>
-              <span>Express</span>
+              <span>Node/Express</span>
               <span>MySQL</span>
               <span>MongoDB</span>
             </div>
@@ -63,7 +64,21 @@ function Skills() {
         <div>
           <Image src={firebaseImage} />
           <div className="content_item">
-            <p>Backend with Firebase</p>
+            <p>Firebase</p>
+            <div>
+              <span>Firestore</span>
+              <span>Storage</span>
+              <span>Hosting</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image src={figmaImage} />
+          <div className="content_item">
+            <p>UI Design</p>
+            <div>
+              <span>Figma</span>
+            </div>
           </div>
         </div>
       </div>

@@ -3,43 +3,46 @@ import Link from "next/link";
 import { projects } from "../data";
 function Portfolio() {
   const Project = (item) => (
-    <div className="item">
-      <div className="image_container">
-        <Link href={item.URLapp}>
-          <a target="_blank">
-            <Image
-              className="imagep"
-              src={item.image}
-              width="100%"
-              height="100%"
-              layout="responsive"
-            />
-          </a>
-        </Link>
-      </div>
-      <div className="description">
-        <h2>{item.title}</h2>
-        <h3>Description</h3>
-        <p>{item.description}</p>
-        <div className="bottom">
-          <span>TECHNOLOGIES</span>
-          <div className="line"></div>
-          <div className="technologies">
-            {item.technologies.map((tech) => (
-              <p key={tech}>{tech}</p>
-            ))}
+    <>
+      <div className="item">
+        <h2 className="title_item">{item.title}</h2>
+        <div className="image_container">
+          <Link href={item.URLapp}>
+            <a target="_blank">
+              <Image
+                className="imagep"
+                src={item.image}
+                width="400"
+                height="200"
+              />
+            </a>
+          </Link>
+        </div>
+        <div className="description">
+          <h3>Description</h3>
+          <p>{item.description}</p>
+        </div>
+        <div className="bottom_options">
+          <div className="technologies_container">
+            <span>TECHNOLOGIES</span>
+            <div className="line"></div>
+            <div className="technologies">
+              {item.technologies.map((tech) => (
+                <p key={tech}>{tech}</p>
+              ))}
+            </div>
+          </div>
+          <div className="buttons_container">
+            <Link href={item.URLcode}>
+              <a target="_blank">View code</a>
+            </Link>
+            <Link href={item.URLapp}>
+              <a target="_blank">View project</a>
+            </Link>
           </div>
         </div>
-        <div className="buttons_container">
-          <Link href={item.URLcode}>
-            <a target="_blank">View code</a>
-          </Link>
-          <Link href={item.URLapp}>
-            <a target="_blank">View project</a>
-          </Link>
-        </div>
       </div>
-    </div>
+    </>
   );
   return (
     <div className="portfolio" id="portfolio">
