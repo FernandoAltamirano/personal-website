@@ -30,7 +30,7 @@ export const projects = [
   {
     id: 2,
     image: imageEcommerce,
-    title: "Ecommerce Gloves Store",
+    title: "Gloves Ecommerce",
     description:
       "Fullstack aplication developed for a glove sales company. On this aplication you can login with Google or an email, add or remove products to the cart 🛒, see a pay method using Strip. Also there is an admin module to manage products and sales.",
     technologies: [
