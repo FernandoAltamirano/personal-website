@@ -33,6 +33,8 @@ function Skills() {
               <span>Javascript</span>
               <span>React</span>
               <span>Redux</span>
+              <span>Nextjs</span>
+              <span>Typescript</span>
             </div>
           </div>
         </div>
