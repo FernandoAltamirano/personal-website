@@ -4,6 +4,7 @@ import nodeImage from "../public//node.png";
 import firebaseImage from "../public/firebase.png";
 import layoutImage from "../public/layout.png";
 import figmaImage from "../public/icons8-figma-96.png";
+import notionImage from "../public/notion.png";
 
 function Skills() {
   return (
@@ -80,6 +81,15 @@ function Skills() {
             <p>UI Design</p>
             <div>
               <span>Figma</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image src={notionImage} />
+          <div className="content_item">
+            <p>Team Management </p>
+            <div>
+              <span>Notion</span>
             </div>
           </div>
         </div>
