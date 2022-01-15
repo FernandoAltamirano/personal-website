@@ -23,6 +23,7 @@ function Skills() {
               <span>CSS</span>
               <span>Sass</span>
               <span>Tailwindcss</span>
+              <span>ChakraUI</span>
             </div>
           </div>
         </div>
