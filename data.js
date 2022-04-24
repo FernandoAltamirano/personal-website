@@ -37,7 +37,7 @@ export const projects = [
       "NextJS",
       "Typescript",
     ],
-    URLapp: "https://fernandoaltamirano.github.io/social-media-dashboard/",
+    URLapp: "https://kcera-dev.vercel.app/",
   },
   {
     id: 3,
