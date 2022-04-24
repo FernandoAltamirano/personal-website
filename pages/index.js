@@ -10,6 +10,10 @@ import ReturnUp from "../components/ReturnUp";
 import Skills from "../components/Skills";
 
 export default function Home() {
+  useEffect(() => {
+    const isDark = window.localStorage.getItem("dark");
+    if (isDark) document.body.classList.add("dark");
+  }, []);
   return (
     <div>
       <Head>

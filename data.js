@@ -1,11 +1,7 @@
-const imageWhisper =
-  "http://fernandoimages.imgix.net/prueba/whisper.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
-const imageSGEA =
-  "http://fernandoimages.imgix.net/prueba/imagen_2021-10-21_134525.png?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
-const imageDashboard =
-  "http://fernandoimages.imgix.net/prueba/dashboard.jpg?auto=compress&cs=tinysrgb&dpr=4&h=750&w=300";
-const imageEcommerce =
-  "http://fernandoimages.imgix.net/prueba/ecommerce.jpg?auto=compress&cs=tinysrgb&dpr=4&h=400&w=300";
+const imageWhisper = "/whisper.png";
+const imageSGEA = "/sgea.png";
+const imageKcera = "/kacera.png";
+const imageEcommerce = "/ecommerce.png";
 export const projects = [
   {
     id: 1,
@@ -23,12 +19,28 @@ export const projects = [
       "AWS - RDS",
       "Firebase",
     ],
-    URLapp: "https://sgea-dfa82.web.app",
+    URLapp: "https://sgea-fa6fa.web.app/",
     URLcode: "https://github.com/FernandoAltamirano/sgea-frontend",
   },
 
   {
     id: 2,
+    image: imageKcera,
+    title: "Ecommerce - Kacera",
+    description:
+      "This app is an ecommerce mainly focused in healthy food 🥬. This app can list many categories and login with Facebook and Google. Also was implemented a chat layout and profile setting when you can see your user options and you deliveries list 🥕",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Chakra UI",
+      "NextJS",
+      "Typescript",
+    ],
+    URLapp: "https://fernandoaltamirano.github.io/social-media-dashboard/",
+  },
+  {
+    id: 3,
     image: imageEcommerce,
     title: "Gloves Ecommerce",
     description:
@@ -47,7 +59,7 @@ export const projects = [
     URLcode: "https://github.com/FernandoAltamirano/ecommerce-gloves-store",
   },
   {
-    id: 3,
+    id: 4,
     image: imageWhisper,
     title: "Whisper",
     description:
@@ -62,15 +74,5 @@ export const projects = [
     ],
     URLapp: "https://whisper-2bc9b.web.app",
     URLcode: "https://github.com/FernandoAltamirano/whisper",
-  },
-  {
-    id: 4,
-    image: imageDashboard,
-    title: "Social Media Dashboard",
-    description:
-      "This app is an implementation of a frontendmentor challenge using basic techonologies like HTML and CSS. Also I could implement light and dark mode 🌗 with a button toggle. Also this page has full responsive design.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    URLapp: "https://fernandoaltamirano.github.io/social-media-dashboard/",
-    URLcode: "https://github.com/FernandoAltamirano/social-media-dashboard",
   },
 ];

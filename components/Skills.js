@@ -5,6 +5,7 @@ import firebaseImage from "../public/firebase.png";
 import layoutImage from "../public/layout.png";
 import figmaImage from "../public/icons8-figma-96.png";
 import notionImage from "../public/notion.png";
+import vueImage from "../public/vue.png";
 
 function Skills() {
   return (
@@ -30,7 +31,7 @@ function Skills() {
         <div>
           <Image src={reactImage} />
           <div className="content_item">
-            <p>Frontend Development</p>
+            <p>Frontend Development - React</p>
             <div>
               <span>Javascript</span>
               <span>React</span>
@@ -91,6 +92,16 @@ function Skills() {
             <p>Team Management </p>
             <div>
               <span>Notion</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image src={vueImage} />
+          <div className="content_item">
+            <p>Frontend Development - Vue</p>
+            <div>
+              <span>Vuejs</span>
+              <span>Javascript</span>
             </div>
           </div>
         </div>

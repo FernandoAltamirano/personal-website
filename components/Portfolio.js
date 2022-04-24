@@ -33,9 +33,11 @@ function Portfolio() {
             </div>
           </div>
           <div className="buttons_container">
-            <Link href={item.URLcode}>
-              <a target="_blank">View code</a>
-            </Link>
+            {item.URLcode && (
+              <Link href={item.URLcode}>
+                <a target="_blank">View code</a>
+              </Link>
+            )}
             <Link href={item.URLapp}>
               <a target="_blank">View project</a>
             </Link>
