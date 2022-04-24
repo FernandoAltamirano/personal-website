@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import Icon from "react-icons-kit/Icon";
 import { ic_close } from "react-icons-kit/md/ic_close";
-function Modal({ showMenu, setShowMenu }) {
+function Modal({ showMenu, setShowMenu, Moon, Sun, handleDarkMode, checked }) {
   useEffect(() => {
     window.addEventListener("resize", () => {
       if (window.innerWidth > 768) {
@@ -28,6 +28,15 @@ function Modal({ showMenu, setShowMenu }) {
         />
       </div>
       <div className="links_container">
+        <label style={{ cursor: "pointer", marginTop: "15px" }}>
+          <input
+            hidden
+            type="checkbox"
+            checked={checked}
+            onChange={handleDarkMode}
+          />
+          {!checked ? <Moon /> : <Sun />}
+        </label>
         <Link href="#aboutme">
           <a onClick={closeModal}>About me</a>
         </Link>

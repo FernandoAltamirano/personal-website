@@ -116,7 +116,14 @@ function Header() {
           </div>
         </div>
       </a.div>
-      <Modal showMenu={showMenu} setShowMenu={setShowMenu} />
+      <Modal
+        showMenu={showMenu}
+        setShowMenu={setShowMenu}
+        Moon={Moon}
+        Sun={Sun}
+        handleDarkMode={handleDarkMode}
+        checked={checked}
+      />
     </>
   );
 }

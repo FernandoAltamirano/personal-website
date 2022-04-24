@@ -598,6 +598,7 @@ p {
   /* height: 45%; */
   transform: translateY(-1000px);
   transition: 450ms all;
+  padding-bottom: 20px;
 }
 .showModal {
   transform: translateY(0);
@@ -618,15 +619,16 @@ p {
   margin: 0.8em 0;
   transition: 450ms all;
 }
-.modal .links_container a:first-child:hover {
+
+.modal .links_container a:nth-child(2):hover {
   color: var(--yellow);
 }
-.modal .links_container a:nth-child(2):hover {
+.modal .links_container a:nth-child(3):hover {
   color: var(--red);
 }
-.modal .links_container a:nth-child(3):hover {
+.modal .links_container a:nth-child(4):hover {
   color: var(--purple);
 }
-.modal .links_container a:nth-child(4):hover {
+.modal .links_container a:nth-child(5):hover {
   color: var(--lightblue);
 }
