@@ -102,7 +102,7 @@ function Skills() {
             <p>Frontend Development - Vue</p>
             <div>
               <span>Javascript</span>
-              <span>Vuejs</span>
+              <span>Vue</span>
             </div>
           </div>
         </div>
