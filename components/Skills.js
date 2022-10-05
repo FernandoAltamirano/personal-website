@@ -24,7 +24,8 @@ function Skills() {
               <span>CSS</span>
               <span>Sass</span>
               <span>Tailwindcss</span>
-              <span>ChakraUI</span>
+              <span>Chakra UI</span>
+              <span>Material UI</span>
             </div>
           </div>
         </div>
@@ -100,8 +101,8 @@ function Skills() {
           <div className="content_item">
             <p>Frontend Development - Vue</p>
             <div>
-              <span>Vuejs</span>
               <span>Javascript</span>
+              <span>Vuejs</span>
             </div>
           </div>
         </div>
