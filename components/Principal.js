@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { useSpring, a, config } from "react-spring";
-const profile = "/profile.jpeg";
+const profile = "/profile.jpg";
 
 function Principal() {
   const animation = useSpring({

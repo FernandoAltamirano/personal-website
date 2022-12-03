@@ -4,8 +4,9 @@ import nodeImage from "../public//node.png";
 import firebaseImage from "../public/firebase.png";
 import layoutImage from "../public/layout.png";
 import figmaImage from "../public/icons8-figma-96.png";
-import notionImage from "../public/notion.png";
+import dockerImage from "../public/docker.png";
 import vueImage from "../public/vue.png";
+import flutterImage from "../public/flutter.png";
 
 function Skills() {
   return (
@@ -43,20 +44,6 @@ function Skills() {
           </div>
         </div>
         <div>
-          <Image
-            src="https://nmelentjevs.com/static/media/react-native.2081a364.png"
-            width="70"
-            layout="fixed"
-            height="70"
-          />
-          <div className="content_item">
-            <p>Mobile Development</p>
-            <div>
-              <span>React Native</span>
-            </div>
-          </div>
-        </div>
-        <div>
           <Image src={nodeImage} />
           <div className="content_item">
             <p>Backend Development</p>
@@ -64,17 +51,6 @@ function Skills() {
               <span>Node/Express</span>
               <span>MySQL</span>
               <span>MongoDB</span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <Image src={firebaseImage} />
-          <div className="content_item">
-            <p>Firebase</p>
-            <div>
-              <span>Firestore</span>
-              <span>Storage</span>
-              <span>Hosting</span>
             </div>
           </div>
         </div>
@@ -88,10 +64,22 @@ function Skills() {
           </div>
         </div>
         <div>
-          <Image src={notionImage} />
+        <Image src={flutterImage} />
           <div className="content_item">
-            <p>Team Management </p>
+            <p>Hybrid Development</p>
             <div>
+              <span>Flutter mobile and web</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image src={dockerImage} />
+          <div className="content_item">
+            <p>Tools</p>
+            <div>
+              <span>Docker</span>
+              <span>Firebase</span>
+              <span>Vercel</span>
               <span>Notion</span>
             </div>
           </div>
@@ -103,6 +91,17 @@ function Skills() {
             <div>
               <span>Javascript</span>
               <span>Vue</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image src={firebaseImage} />
+          <div className="content_item">
+            <p>Firebase</p>
+            <div>
+              <span>Firestore</span>
+              <span>Storage</span>
+              <span>Hosting</span>
             </div>
           </div>
         </div>
