@@ -16,7 +16,7 @@ function Principal() {
         <h1>Fernando Altamirano Alca</h1>
         <div className="description">
           <p>👾 Web developer</p>
-          <p>🎓 System engineering student</p>
+          <p>🎓 System engineering</p>
           <p>👥 Soft skills </p>
         </div>
         <div className="contact_me">

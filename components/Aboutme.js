@@ -15,8 +15,7 @@ function Aboutme() {
       <div className="wrapper">
         <p>
           Hi, my name is Fernando Altamirano Alca, I'm from Peru, mainly
-          dedicated to Frontend Development but also I have knowledge in backend
-          development. This because I like to be constantly research 🔍 and
+          dedicated to Frontend Development on mobile environment an mainly on the web. This because I like to be constantly research 🔍 and
           learning about new technologies. Also I like watch documentals about
           tech industry, sports and videogames 💻 .
         </p>
