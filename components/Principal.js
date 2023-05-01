@@ -1,8 +1,10 @@
 import Link from "next/link";
-import { useSpring, a, config } from "react-spring";
-const profile = "/profile.jpg";
+import { useTranslation } from "react-i18next";
+import { useSpring, a } from "react-spring";
+const profile = "/profile.jpeg";
 
 function Principal() {
+  const { t } = useTranslation();
   const animation = useSpring({
     from: { opacity: "0" },
     to: { opacity: "1" },
@@ -15,12 +17,12 @@ function Principal() {
       <div>
         <h1>Fernando Altamirano Alca</h1>
         <div className="description">
-          <p>👾 Web developer</p>
-          <p>🎓 System engineering</p>
-          <p>👥 Soft skills </p>
+          <p>👾 {t("Web developer")}</p>
+          <p>🎓 {t("System engineer")}</p>
+          <p>👥 {t("Soft skills")}</p>
         </div>
         <div className="contact_me">
-          <span>Contact me</span>
+          <span>{t("Contact me")}</span>
           <div className="buttons_contact">
             <Link href="https://github.com/FernandoAltamirano">
               <a target="_blank">Github</a>

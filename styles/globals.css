@@ -11,12 +11,12 @@ body {
   --red: #ff0000;
   --lightblue: #00d1ff;
   --purple: #8f00ff;
-  --letter-color:black;
-  --hoverbtn:black;
-  --line:var(--gray2);
-  --maskcolor:white;
-  --iconcolor:black;
-  --scroolbar:var(--black)
+  --letter-color: black;
+  --hoverbtn: black;
+  --line: var(--gray2);
+  --maskcolor: white;
+  --iconcolor: black;
+  --scroolbar: var(--black);
 }
 body.dark {
   --gray: #18181b;
@@ -30,12 +30,16 @@ body.dark {
   --red: #ff0000;
   --lightblue: #00d1ff;
   --purple: #8f00ff;
-  --letter-color:rgb(240, 240, 240);
-  --hoverbtn:#18181b;
-  --line:rgb(53, 53, 53);
-  --maskcolor: linear-gradient(to right, rgba(24, 24, 27, 1), rgba(24, 24, 27, 0));
-  --iconcolor:rgb(240, 240, 240);
-  --scroolbar:rgb(117, 117, 117);
+  --letter-color: rgb(240, 240, 240);
+  --hoverbtn: #18181b;
+  --line: rgb(53, 53, 53);
+  --maskcolor: linear-gradient(
+    to right,
+    rgba(24, 24, 27, 1),
+    rgba(24, 24, 27, 0)
+  );
+  --iconcolor: rgb(240, 240, 240);
+  --scroolbar: rgb(117, 117, 117);
 }
 
 html,
@@ -153,16 +157,49 @@ a {
 .header .links a:nth-child(4):hover {
   color: var(--lightblue);
 }
+.world-icon {
+  margin-bottom: -3px;
+  margin-left: 10px;
+}
+.dropdown-menu-lang {
+  display: none;
+}
+.lang {
+  position: relative;
+}
+.dropdown-menu-lang {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  border: 1px solid rgba(24, 24, 27, 0.1);
+  border-radius: 5px;
+  background-color: var(--white);
+  padding-left: 0.2rem;
+  padding-right: 1rem;
+  padding-bottom: 0.3rem;
+}
+.dropdown-menu-lang p {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.dropdown-menu-lang p:hover {
+  text-decoration: underline;
+}
+.world-icon:hover + .dropdown-menu-lang,
+.dropdown-menu-lang:hover {
+  display: block;
+}
 @media (min-width: 768px) {
   .header > div > div {
     display: none;
   }
   .header .links {
-    display: initial;
+    display: flex;
+    align-items: center;
   }
 }
 
-.header svg{
+.header svg {
   margin-bottom: -5px;
   margin-left: 10px;
 }
@@ -177,7 +214,7 @@ a {
 .principal h1 {
   text-align: center;
 }
-.principal.wrapper{
+.principal.wrapper {
   gap: 50px;
 }
 .principal .image_container {
@@ -227,7 +264,7 @@ a {
 }
 
 .principal .linkedin-link {
-  color: white!important;
+  color: white !important;
 }
 
 @media (min-width: 768px) {
@@ -458,8 +495,8 @@ p {
   color: var(--white);
 }
 
-.portfolio img{
-  mask-image:var(--maskcolor);
+.portfolio img {
+  mask-image: var(--maskcolor);
 }
 
 @media (min-width: 1000px) {

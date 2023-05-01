@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Icon from "react-icons-kit/Icon";
 import { ic_close } from "react-icons-kit/md/ic_close";
 function Modal({ showMenu, setShowMenu, Moon, Sun, handleDarkMode, checked }) {
+  const { t } = useTranslation();
   useEffect(() => {
     window.addEventListener("resize", () => {
       if (window.innerWidth > 768) {
@@ -38,16 +40,16 @@ function Modal({ showMenu, setShowMenu, Moon, Sun, handleDarkMode, checked }) {
           {!checked ? <Moon /> : <Sun />}
         </label>
         <Link href="#aboutme">
-          <a onClick={closeModal}>About me</a>
+          <a onClick={closeModal}>{t("About me")}</a>
         </Link>
         <Link href="#skills">
-          <a onClick={closeModal}>Skills</a>
+          <a onClick={closeModal}>{t("Skills")}</a>
         </Link>
         <Link href="#portfolio">
-          <a onClick={closeModal}>Portfolio</a>
+          <a onClick={closeModal}>{t("Portfolio")}</a>
         </Link>
         <Link href="#contact">
-          <a onClick={closeModal}>Contact</a>
+          <a onClick={closeModal}>{t("Contact")}</a>
         </Link>
       </div>
     </div>

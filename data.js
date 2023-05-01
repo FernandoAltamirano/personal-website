@@ -6,9 +6,9 @@ export const projects = [
   {
     id: 1,
     image: imageSGEA,
-    title: "Sistema de Gestión de Eventos Académicos - SGEA",
+    title: "Academic Events Management System",
     description:
-      "SGEA is a system where you can find many academic events and register your assistance or register a new event who organizer 👨‍🎓. Also, you will have access to a dashboard to have better control of your profile, events, events requests and inscriptions to the events 📝. Finally there are an module to admin where she/he can accept or reject requests",
+      "SGEA is a system where you can find many academic events and register your assistance or register a new event who organizer 👨‍🎓. Also, you will have access to a dashboard to have better control of your profile, events, events requests and inscriptions to the events 📝. Finally there are an module to admin where she/he can accept or reject requests.",
     technologies: [
       "HTML",
       "CSS",

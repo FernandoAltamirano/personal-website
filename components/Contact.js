@@ -4,12 +4,14 @@ import { linkedin } from "react-icons-kit/fa/linkedin";
 import { github } from "react-icons-kit/fa/github";
 import { envelope } from "react-icons-kit/fa/envelope";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 function Contact() {
+  const { t } = useTranslation();
   return (
     <div className="contact" id="contact">
       <div className="title_section">
         <div></div>
-        <h1>Contact</h1>
+        <h1>{t("Contact")}</h1>
       </div>
       <div className="wrapper">
         <Link href="https://www.linkedin.com/in/fernandoelialtamirano/">

@@ -7,9 +7,8 @@ import logoheaderw from "../public/logoheaderw.svg";
 import logoheaderd from "../public/logoheaderd.svg";
 import React from "react";
 import Modal from "./Modal";
-import moon from "../public/moon.png";
-import sun from "../public/sun.png";
 import { useSpring, a, config } from "react-spring";
+import { useTranslation } from "react-i18next";
 
 const Moon = (props) => (
   <svg height={21} width={21} xmlns="http://www.w3.org/2000/svg" {...props}>
@@ -47,6 +46,7 @@ const Sun = (props) => (
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const [checked, setChecked] = useState(false);
+  const { i18n, t } = useTranslation();
   const animation = useSpring({
     from: { opacity: "0" },
     to: { opacity: "1" },
@@ -62,7 +62,16 @@ function Header() {
       setChecked(false);
     }
   };
-
+  const handleSetLang = (language) => {
+    let lang = "";
+    if (language.toLowerCase() === "en") {
+      lang = "en";
+    } else {
+      lang = "es";
+    }
+    i18n.changeLanguage(lang);
+    window.localStorage.setItem("lang", lang);
+  };
   useEffect(() => {
     const isDark = window.localStorage.getItem("dark");
     if (isDark) return setChecked(true);
@@ -83,16 +92,16 @@ function Header() {
         <div style={{ display: "flex", alignItems: "center" }}>
           <div className="links">
             <Link href="#aboutme">
-              <a>About me</a>
+              <a>{t("About me")}</a>
             </Link>
             <Link href="#skills">
-              <a>Skills</a>
+              <a>{t("Skills")}</a>
             </Link>
             <Link href="#portfolio">
-              <a>Portfolio</a>
+              <a>{t("Portfolio")}</a>
             </Link>
             <Link href="#contact">
-              <a>Contact</a>
+              <a>{t("Contact")}</a>
             </Link>
             <label style={{ cursor: "pointer" }}>
               <input
@@ -103,8 +112,21 @@ function Header() {
               />
               {!checked ? <Moon /> : <Sun />}
             </label>
+            <div className="lang">
+              <img
+                src={checked ? "/world-light.svg" : "/world.svg"}
+                alt="world icon"
+                className="world-icon"
+                width={17}
+                height={17}
+                // style={{ cursor: "pointer" }}
+              />
+              <div class="dropdown-menu-lang">
+                <p onClick={() => handleSetLang("ES")}>ES</p>
+                <p onClick={() => handleSetLang("EN")}>EN</p>
+              </div>
+            </div>
           </div>
-
           <div>
             <Icon
               style={{ cursor: "pointer" }}
