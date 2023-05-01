@@ -12,6 +12,7 @@ import { useTranslation } from "react-i18next";
 
 function Skills() {
   const { t } = useTranslation();
+
   return (
     <div className="skills" id="skills">
       <div className="title_section">
