@@ -17,9 +17,9 @@ function Principal() {
       <div>
         <h1>Fernando Altamirano Alca</h1>
         <div className="description">
-          <p>👾 {t("Web developer")}</p>
+          <p>👾 {t("Web and mobile developer")}</p>
           <p>🎓 {t("System engineer")}</p>
-          <p>👥 {t("Soft skills")}</p>
+          <p>👥 {t("Teamwork")}</p>
         </div>
         <div className="contact_me">
           <span>{t("Contact me")}</span>
@@ -30,6 +30,11 @@ function Principal() {
             <Link href="https://www.linkedin.com/in/fernandoelialtamirano/">
               <a className="linkedin-link" target="_blank">
                 Linkedin
+              </a>
+            </Link>
+            <Link href="./Fernando Eli Altamirano Alca-CURRICULUM.pdf">
+              <a className="download-cv" target="_blank" download>
+                {t("Curriculum")}
               </a>
             </Link>
           </div>

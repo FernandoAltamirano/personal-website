@@ -244,6 +244,10 @@ a {
 
 .principal .buttons_contact {
   margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 .principal .buttons_contact a {
   border-radius: 3px;
@@ -265,6 +269,11 @@ a {
 
 .principal .linkedin-link {
   color: white !important;
+}
+.principal .download-cv {
+  color: white !important;
+  border: 1px solid rgb(204, 68, 68);
+  background-color: rgb(204, 68, 68);
 }
 
 @media (min-width: 768px) {
@@ -290,54 +299,6 @@ a {
   }
   .principal .buttons_contact {
     margin-top: 15px;
-  }
-  .principal .buttons_contact a {
-    padding: 8px 45px;
-  }
-}
-
-/* ABOUT ME  */
-.aboutme {
-  text-align: center;
-  margin-bottom: 4em;
-}
-.aboutme .title_section div {
-  background-color: var(--yellow);
-}
-
-.aboutme p {
-  margin: 1.5em auto;
-  line-height: 1.5;
-  max-width: 700px;
-  text-align: justify;
-}
-.downloadcv {
-  margin: 1.5em auto;
-  max-width: 700px;
-}
-.aboutme a {
-  display: block;
-  border-radius: 3px;
-  border: 1px solid var(--black);
-  padding: 5px 30px;
-  font-weight: bold;
-  transition: 450ms all;
-}
-.aboutme a:hover {
-  background-color: var(--yellow);
-  color: var(--hoverbtn);
-}
-
-@media (min-width: 768px) {
-  .aboutme p {
-    margin-top: 2.5em;
-  }
-  .downloadcv {
-    margin-top: 3em;
-  }
-  .aboutme a {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 /* SKILLS  */

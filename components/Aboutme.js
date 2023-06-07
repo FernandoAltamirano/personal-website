@@ -16,7 +16,6 @@ function Aboutme() {
       </div>
       <div className="wrapper">
         <p>{t("about-1")}</p>
-        <p> {t("about-2")}</p>
         <div className="downloadcv">
           <Link href="./Fernando Eli Altamirano Alca-CURRICULUM.pdf">
             <a target="_blank" download>

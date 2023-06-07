@@ -25,7 +25,7 @@ export default function Home() {
       <main>
         <Header />
         <Principal />
-        <Aboutme />
+        {/* <Aboutme /> */}
         <Skills />
         <Portfolio />
         <Contact />
