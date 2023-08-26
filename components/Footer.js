@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer wrapper">
       <div>
         <p>
-          {t("Created by Fernando Altamirano with ❤️ -")}{" "}
+          {t("Created by Fernando Altamirano -")}{" "}
           {new Date(Date.now()).getFullYear()}
         </p>
       </div>

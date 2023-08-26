@@ -20,18 +20,17 @@
       "iOS Mobile Development": "iOS Mobile Development",
       "Tools": "Tools",
       "Academic Events Management System": "Academic Events Management System",
-      "SGEA is a system where you can find many academic events and register your assistance or register a new event who organizer 👨‍🎓. Also, you will have access to a dashboard to have better control of your profile, events, events requests and inscriptions to the events 📝. Finally there are an module to admin where she/he can accept or reject requests.": "SGEA is a system where you can find many academic events and register your assistance or register a new event who organizer 👨‍🎓. Also, you will have access to a dashboard to have better control of your profile, events, events requests and inscriptions to the events 📝. Finally there are an module to admin where she/he can accept or reject requests.",
+      "sgea description": "SGEA is a system where you can find many academic events and register your assistance or register a new event who organizer 👨‍🎓. Also, you will have access to a dashboard to have better control of your profile, events, events requests and inscriptions to the events 📝. Finally there are an module to admin where she/he can accept or reject requests.",
       "Description": "Description",
       "TECHNOLOGIES": "TECHNOLOGIES",
       "View code": "View code",
       "View project": "View project",
       "Ecommerce": "Ecommerce",
-      "This app is an ecommerce mainly focused in healthy food 🥬. This app can list many categories and login with Facebook and Google. Also was implemented a chat layout and profile setting when you can see your user options and you deliveries list 🥕.": "This app is an ecommerce mainly focused in healthy food 🥬. This app can list many categories and login with Facebook and Google. Also was implemented a chat layout and profile setting when you can see your user options and you deliveries list 🥕.",
-      "Gloves Ecommerce": "Gloves Ecommerce",
-      "Fullstack aplication developed for a glove sales company. On this aplication you can login with Google or an email, add or remove products to the cart 🛒, see a pay method using Strip. Also there is an admin module to manage products and sales.": "Fullstack aplication developed for a glove sales company. On this aplication you can login with Google or an email, add or remove products to the cart 🛒, see a pay method using Strip. Also there is an admin module to manage products and sales.",
-      "Whisper is an app based on the Twitter layout with some changes 😁. You can add emojis, upload images and gifs.Also you can use the option 'PERFIL' and see your posts and change your profile image 👨‍💻.": "Whisper is an app based on the Twitter layout with some changes 😁. You can add emojis, upload images and gifs.Also you can use the option 'PERFIL' and see your posts and change your profile image 👨‍💻.",
+      "ecommerce description": "A minimalistic marketplace design built using the Bloc pattern to managment the state and get a better code organization, screen loaders and compatibility with Android and Ios.",
+      "exchange description": "This a crypto exchange app when you cand find a dashboard screen, wallet, transactions and soon I will be building a trading view, this app is connected with the Binance socket and get the cryptocurrencies prices. This app is compatibility with Android and Ios.",
+      "nft description": "This a NFT marketplace using a provider like the state manager, splash screen to initialize the app and  compatibility with Android and Ios.",
       "View more": "View more",
-      "Created by Fernando Altamirano with ❤️ -": "Created by Fernando Altamirano with ❤️ -"
+      "Created by Fernando Altamirano -": "Created by Fernando Altamirano -"
     }
   },
   "es": {
@@ -55,18 +54,17 @@
       "Flutter mobile and web": "Flutter móvil y web",
       "Tools": "Herramientas",
       "Academic Events Management System": "Sistema de Gestión de Eventos Académicos",
-      "SGEA is a system where you can find many academic events and register your assistance or register a new event who organizer 👨‍🎓. Also, you will have access to a dashboard to have better control of your profile, events, events requests and inscriptions to the events 📝. Finally there are an module to admin where she/he can accept or reject requests.": "SGEA es un sistema donde puedes encontrar muchos eventos académicos y registrar tu asistencia o registrar un nuevo evento que organizarás 👨‍🎓. Además, tendrás acceso a un panel de control para tener un mejor control de tu perfil, eventos, solicitudes de eventos e inscripciones a los eventos 📝. Finalmente hay un módulo para el administrador donde ella / él puede aceptar o rechazar solicitudes.",
+      "sgea description": "SGEA es un sistema donde puedes encontrar muchos eventos académicos y registrar tu asistencia o registrar un nuevo evento que organizarás 👨‍🎓. Además, tendrás acceso a un panel de control para tener un mejor control de tu perfil, eventos, solicitudes de eventos e inscripciones a los eventos 📝. Finalmente hay un módulo para el administrador donde ella / él puede aceptar o rechazar solicitudes.",
       "Description": "Descripción",
       "TECHNOLOGIES": "TECNOLOGÍAS",
       "View code": "Ver código",
       "View project": "Ver proyecto",
       "Ecommerce": "Ecommerce",
-      "This app is an ecommerce mainly focused in healthy food 🥬. This app can list many categories and login with Facebook and Google. Also was implemented a chat layout and profile setting when you can see your user options and you deliveries list 🥕": "Esta aplicación es un comercio electrónico enfocado principalmente en alimentos saludables 🥬. Esta aplicación puede enumerar muchas categorías e iniciar sesión con Facebook y Google. También se implementó un diseño de chat y una configuración de perfil donde puede ver sus opciones de usuario y su lista de entregas 🥕.",
-      "Gloves Ecommerce": "Ecommerce de guantes",
-      "Fullstack aplication developed for a glove sales company. On this aplication you can login with Google or an email, add or remove products to the cart 🛒, see a pay method using Strip. Also there is an admin module to manage products and sales.": "Aplicación Fullstack desarrollada para una empresa de ventas de guantes. En esta aplicación puede iniciar sesión con Google o un correo electrónico, agregar o eliminar productos del carrito 🛒, ver un método de pago usando Strip. También hay un módulo de administración para administrar productos y ventas.",
-      "Whisper is an app based on the Twitter layout with some changes 😁. You can add emojis, upload images and gifs.Also you can use the option 'PERFIL' and see your posts and change your profile image 👨‍💻.": "Whisper es una aplicación basada en el diseño de Twitter con algunos cambios 😁. Puedes agregar emojis, subir imágenes y gifs. También puede usar la opción 'PERFIL' y ver sus publicaciones y cambiar la imagen de su perfil 👨‍💻.",
+      "exchange description": "Esta es una aplicación de intercambio de criptomonedas donde puede encontrar un dashboard, billetera, transacciones y pronto construiré una vista exchange, esta aplicación está conectada con el socket de Binance y obtiene los precios de las criptomonedas compatible con Android e Ios.",
+      "nft description": "NFT marketplace es una app construida con Flutter que utiliza la librería provider como el administrador de estado, start screen para inicializar la aplicación y compatibilidad con Android e Ios.",
+      "ecommerce description": "Un diseño marketplace minimalista construido usando el patrón Bloc para administrar el estado y obtener una mejor organización del código, laoders de pantalla y compatibilidad con Android e Ios.",
       "View more": "Ver más",
-      "Created by Fernando Altamirano with ❤️ -": "Creado por Fernando Altamirano con ❤️ -"
+      "Created by Fernando Altamirano -": "Creado por Fernando Altamirano -"
     }
   }
 }

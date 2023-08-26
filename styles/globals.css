@@ -399,7 +399,12 @@ p {
   font-size: 16px;
   text-align: justify;
 }
-
+.portfolio .imagep {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .portfolio .technologies_container {
   padding-top: 1em;
 }
@@ -453,12 +458,12 @@ p {
 }
 .portfolio .buttons_container a:hover {
   background-color: var(--purple);
-  color: var(--white);
+  color: white;
 }
 
-.portfolio img {
+/* .portfolio img {
   mask-image: var(--maskcolor);
-}
+} */
 
 @media (min-width: 1000px) {
   .portfolio {
