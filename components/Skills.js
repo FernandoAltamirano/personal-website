@@ -21,6 +21,28 @@ function Skills() {
       </div>
       <div className="wrapper">
         <div>
+          <Image src={reactImage} />
+          <div className="content_item">
+            <p>{t("Frontend Development")} - React</p>
+            <div>
+              <span>Javascript</span>
+              <span>React</span>
+              <span>Redux</span>
+              <span>Nextjs</span>
+              <span>Typescript</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image src={swiftImage} />
+          <div className="content_item">
+            <p>{t("iOS Mobile Development")}</p>
+            <div>
+              <span>SwiftUI</span>
+            </div>
+          </div>
+        </div>
+        <div>
           <Image src={layoutImage} />
           <div className="content_item">
             <p>{t("Layout")}</p>
@@ -31,19 +53,16 @@ function Skills() {
               <span>Tailwindcss</span>
               <span>Chakra UI</span>
               <span>Material UI</span>
+              <span>Shadcn/ui</span>
             </div>
           </div>
         </div>
         <div>
-          <Image src={reactImage} />
+          <Image src={flutterImage} />
           <div className="content_item">
-            <p>{t("Frontend Development")} - React</p>
+            <p>{t("Hybrid Development")}</p>
             <div>
-              <span>Javascript</span>
-              <span>React</span>
-              <span>Redux</span>
-              <span>Nextjs</span>
-              <span>Typescript</span>
+              <span>{t("Flutter mobile and web")}</span>
             </div>
           </div>
         </div>
@@ -68,15 +87,6 @@ function Skills() {
           </div>
         </div>
         <div>
-          <Image src={flutterImage} />
-          <div className="content_item">
-            <p>{t("Hybrid Development")}</p>
-            <div>
-              <span>{t("Flutter mobile and web")}</span>
-            </div>
-          </div>
-        </div>
-        <div>
           <Image src={dockerImage} />
           <div className="content_item">
             <p>{t("Tools")}</p>
@@ -85,36 +95,6 @@ function Skills() {
               <span>Firebase</span>
               <span>Vercel</span>
               <span>Notion</span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <Image src={vueImage} />
-          <div className="content_item">
-            <p>{t("Frontend Development")} - Vue</p>
-            <div>
-              <span>Javascript</span>
-              <span>Vue</span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <Image src={firebaseImage} />
-          <div className="content_item">
-            <p>Firebase</p>
-            <div>
-              <span>Firestore</span>
-              <span>Storage</span>
-              <span>Hosting</span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <Image src={swiftImage} />
-          <div className="content_item">
-            <p>{t("iOS Mobile Development")}</p>
-            <div>
-              <span>SwiftUI</span>
             </div>
           </div>
         </div>

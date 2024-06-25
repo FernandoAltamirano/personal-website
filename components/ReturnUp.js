@@ -16,11 +16,9 @@ function ReturnUp() {
   return (
     <div className={scroll > 0 ? "returnup" : "returnup hidden"}>
       <Link href="#header">
-        <a>
-          <div>
-            <Icon icon={arrowUp2} size="30" />
-          </div>
-        </a>
+        <div>
+          <Icon icon={arrowUp2} size="30" />
+        </div>
       </Link>
     </div>
   );

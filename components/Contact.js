@@ -14,25 +14,20 @@ function Contact() {
         <h1>{t("Contact")}</h1>
       </div>
       <div className="wrapper">
-        <Link href="https://www.linkedin.com/in/fernandoelialtamirano/">
-          <a target="_blank">
-            <Icon icon={linkedin} size="40" className="icon" />
-          </a>
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/fernandoelialtamirano/"
+        >
+          <Icon icon={linkedin} size="40" className="icon" />
         </Link>
-        <Link href="https://wa.me/+51986175271">
-          <a target="_blank">
-            <Icon icon={whatsapp} size="40" className="icon" />
-          </a>
+        <Link target="_blank" href="https://wa.me/+51986175271">
+          <Icon icon={whatsapp} size="40" className="icon" />
         </Link>
         <Link href="mailto:fernandoelialtamirano@gmail.com">
-          <a>
-            <Icon icon={envelope} size="40" className="icon" />
-          </a>
+          <Icon icon={envelope} size="40" className="icon" />
         </Link>
-        <Link href="http://github.com/FernandoAltamirano">
-          <a target="_blank">
-            <Icon icon={github} size="40" className="icon" />
-          </a>
+        <Link target="_blank" href="http://github.com/FernandoAltamirano">
+          <Icon icon={github} size="40" className="icon" />
         </Link>
       </div>
     </div>

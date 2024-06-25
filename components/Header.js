@@ -81,28 +81,18 @@ function Header() {
     <>
       <a.div style={animation} className="header wrapper" id="header">
         <Link href="/">
-          <a>
-            <Image
-              src={checked ? logoheaderw : logoheaderd}
-              width="100"
-              height="45"
-            />
-          </a>
+          <Image
+            src={checked ? logoheaderw : logoheaderd}
+            width="100"
+            height="45"
+          />
         </Link>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div className="links">
-            <Link href="#aboutme">
-              <a>{t("About me")}</a>
-            </Link>
-            <Link href="#skills">
-              <a>{t("Skills")}</a>
-            </Link>
-            <Link href="#portfolio">
-              <a>{t("Portfolio")}</a>
-            </Link>
-            <Link href="#contact">
-              <a>{t("Contact")}</a>
-            </Link>
+            <Link href="#aboutme">{t("About me")}</Link>
+            <Link href="#skills">{t("Skills")}</Link>
+            <Link href="#portfolio">{t("Portfolio")}</Link>
+            <Link href="#contact">{t("Contact")}</Link>
             <label style={{ cursor: "pointer" }}>
               <input
                 hidden

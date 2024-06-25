@@ -72,17 +72,17 @@ function Modal({ showMenu, setShowMenu, Moon, Sun, handleDarkMode, checked }) {
             </div>
           </div>
         </div>
-        <Link href="#aboutme">
-          <a onClick={closeModal}>{t("About me")}</a>
+        <Link onClick={closeModal} href="#aboutme">
+          {t("About me")}
         </Link>
-        <Link href="#skills">
-          <a onClick={closeModal}>{t("Skills")}</a>
+        <Link onClick={closeModal} href="#skills">
+          {t("Skills")}
         </Link>
-        <Link href="#portfolio">
-          <a onClick={closeModal}>{t("Portfolio")}</a>
+        <Link onClick={closeModal} href="#portfolio">
+          {t("Portfolio")}
         </Link>
-        <Link href="#contact">
-          <a onClick={closeModal}>{t("Contact")}</a>
+        <Link onClick={closeModal} href="#contact">
+          {t("Contact")}
         </Link>
       </div>
     </div>

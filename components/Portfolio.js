@@ -17,10 +17,8 @@ const Project = ({
       <h2 className="title_item">{t(title)}</h2>
       <Tilt>
         <div className="image_container">
-          <Link href={URLcode}>
-            <a target="_blank">
-              <Image className="imagep" src={image} width="400" height="280" />
-            </a>
+          <Link target="_blank" href={URLcode}>
+            <Image className="imagep" src={image} width="500" height="280" />
           </Link>
         </div>
       </Tilt>
@@ -55,10 +53,12 @@ function Portfolio() {
           <Project key={item.id} {...item} t={t} />
         ))}
       </div>
-      <Link href="http://github.com/FernandoAltamirano">
-        <a target="_blank" className="vermas">
-          {t("View more")}
-        </a>
+      <Link
+        target="_blank"
+        className="vermas"
+        href="http://github.com/FernandoAltamirano"
+      >
+        {t("View more")}
       </Link>
     </div>
   );

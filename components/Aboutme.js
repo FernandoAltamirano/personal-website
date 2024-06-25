@@ -17,10 +17,12 @@ function Aboutme() {
       <div className="wrapper">
         <p>{t("about-1")}</p>
         <div className="downloadcv">
-          <Link href="./Fernando Eli Altamirano Alca-CURRICULUM.pdf">
-            <a target="_blank" download>
-              {t("Download CV")}
-            </a>
+          <Link
+            target="_blank"
+            download
+            href="./Fernando Eli Altamirano Alca-CURRICULUM.pdf"
+          >
+            {t("Download CV")}
           </Link>
         </div>
       </div>
